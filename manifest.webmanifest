@@ -1,0 +1,18 @@
+{
+  "name": "Geography Hub",
+  "short_name": "Geo Hub",
+  "description": "A bilingual geography quiz for countries, capitals and continents.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#060d1a",
+  "theme_color": "#060d1a",
+  "lang": "en-GB",
+  "categories": ["education", "games"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
