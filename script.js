@@ -189,7 +189,11 @@ function getPool() {
 }
 
 function calculateRoundTime() {
-  return Math.max(10, getPool().length * 10);
+  const secondsPerAnswer = LANG === "ru" ? 30 : 20;
+  return Math.max(
+    secondsPerAnswer,
+    getPool().length * secondsPerAnswer
+  );
 }
 
 // ── Answer slots ───────────────────────────────────────
